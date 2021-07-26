@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Caveat", cursive;
+}
+
 header section {
   height: 50px;
 }
