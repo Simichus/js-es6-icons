@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header section {
+  height: 50px;
+}
+
+header select,
+header select option {
+  text-transform: capitalize;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+}
+
+.icon {
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animal {
+  color: dodgerblue;
+}
+
+.vegetable {
+  color: goldenrod;
+}
+
+.user {
+  color: purple;
+}
+
+.company {
+  color: saddlebrown;
+}
